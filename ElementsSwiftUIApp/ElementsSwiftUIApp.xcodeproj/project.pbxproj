@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		467710682AF6674300BA4EF5 /* ElementsSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467710672AF6674300BA4EF5 /* ElementsSwiftUIAppApp.swift */; };
-		4677106A2AF6674300BA4EF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467710692AF6674300BA4EF5 /* ContentView.swift */; };
+		4677106A2AF6674300BA4EF5 /* ToggleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467710692AF6674300BA4EF5 /* ToggleScreen.swift */; };
 		4677106C2AF6674500BA4EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4677106B2AF6674500BA4EF5 /* Assets.xcassets */; };
 		4677106F2AF6674500BA4EF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4677106E2AF6674500BA4EF5 /* Preview Assets.xcassets */; };
+		467710762AF66AF700BA4EF5 /* DatePickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467710752AF66AF700BA4EF5 /* DatePickerScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		467710642AF6674300BA4EF5 /* ElementsSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElementsSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		467710672AF6674300BA4EF5 /* ElementsSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsSwiftUIAppApp.swift; sourceTree = "<group>"; };
-		467710692AF6674300BA4EF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		467710692AF6674300BA4EF5 /* ToggleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleScreen.swift; sourceTree = "<group>"; };
 		4677106B2AF6674500BA4EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4677106E2AF6674500BA4EF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		467710752AF66AF700BA4EF5 /* DatePickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				467710672AF6674300BA4EF5 /* ElementsSwiftUIAppApp.swift */,
-				467710692AF6674300BA4EF5 /* ContentView.swift */,
+				467710692AF6674300BA4EF5 /* ToggleScreen.swift */,
+				467710752AF66AF700BA4EF5 /* DatePickerScreen.swift */,
 				4677106B2AF6674500BA4EF5 /* Assets.xcassets */,
 				4677106D2AF6674500BA4EF5 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4677106A2AF6674300BA4EF5 /* ContentView.swift in Sources */,
+				4677106A2AF6674300BA4EF5 /* ToggleScreen.swift in Sources */,
 				467710682AF6674300BA4EF5 /* ElementsSwiftUIAppApp.swift in Sources */,
+				467710762AF66AF700BA4EF5 /* DatePickerScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
