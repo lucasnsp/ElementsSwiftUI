@@ -7,18 +7,26 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ToggleScreen: View {
+    
+    @State var isOn: Bool = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            Color(isOn ? .orange : .blue)
+                .ignoresSafeArea()
+            VStack {
+                Toggle(isOn: $isOn) {
+                    Text("teste")
+                }
+                .labelsHidden()
+            }
+            .padding()
         }
-        .padding()
+        
     }
 }
 
 #Preview {
-    ContentView()
+    ToggleScreen()
 }

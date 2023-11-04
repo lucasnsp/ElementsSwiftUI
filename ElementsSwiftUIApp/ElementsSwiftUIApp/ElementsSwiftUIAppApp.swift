@@ -11,7 +11,7 @@ import SwiftUI
 struct ElementsSwiftUIAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ToggleScreen()
         }
     }
 }
