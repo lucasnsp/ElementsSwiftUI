@@ -14,6 +14,7 @@
 		467710762AF66AF700BA4EF5 /* DatePickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467710752AF66AF700BA4EF5 /* DatePickerScreen.swift */; };
 		467710782AF670B800BA4EF5 /* StepperViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467710772AF670B800BA4EF5 /* StepperViewScreen.swift */; };
 		46C561CB2AF8587F00AF41F6 /* ProgressViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C561CA2AF8587F00AF41F6 /* ProgressViewScreen.swift */; };
+		46C561CD2AF85CA700AF41F6 /* ImageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C561CC2AF85CA700AF41F6 /* ImageScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		467710752AF66AF700BA4EF5 /* DatePickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerScreen.swift; sourceTree = "<group>"; };
 		467710772AF670B800BA4EF5 /* StepperViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewScreen.swift; sourceTree = "<group>"; };
 		46C561CA2AF8587F00AF41F6 /* ProgressViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewScreen.swift; sourceTree = "<group>"; };
+		46C561CC2AF85CA700AF41F6 /* ImageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				467710752AF66AF700BA4EF5 /* DatePickerScreen.swift */,
 				467710772AF670B800BA4EF5 /* StepperViewScreen.swift */,
 				46C561CA2AF8587F00AF41F6 /* ProgressViewScreen.swift */,
+				46C561CC2AF85CA700AF41F6 /* ImageScreen.swift */,
 				4677106B2AF6674500BA4EF5 /* Assets.xcassets */,
 				4677106D2AF6674500BA4EF5 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				467710682AF6674300BA4EF5 /* ElementsSwiftUIAppApp.swift in Sources */,
 				46C561CB2AF8587F00AF41F6 /* ProgressViewScreen.swift in Sources */,
 				467710762AF66AF700BA4EF5 /* DatePickerScreen.swift in Sources */,
+				46C561CD2AF85CA700AF41F6 /* ImageScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
