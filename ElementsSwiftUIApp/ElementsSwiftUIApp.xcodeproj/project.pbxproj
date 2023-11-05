@@ -13,6 +13,7 @@
 		4677106F2AF6674500BA4EF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4677106E2AF6674500BA4EF5 /* Preview Assets.xcassets */; };
 		467710762AF66AF700BA4EF5 /* DatePickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467710752AF66AF700BA4EF5 /* DatePickerScreen.swift */; };
 		467710782AF670B800BA4EF5 /* StepperViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467710772AF670B800BA4EF5 /* StepperViewScreen.swift */; };
+		46C561CB2AF8587F00AF41F6 /* ProgressViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C561CA2AF8587F00AF41F6 /* ProgressViewScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4677106E2AF6674500BA4EF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		467710752AF66AF700BA4EF5 /* DatePickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerScreen.swift; sourceTree = "<group>"; };
 		467710772AF670B800BA4EF5 /* StepperViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewScreen.swift; sourceTree = "<group>"; };
+		46C561CA2AF8587F00AF41F6 /* ProgressViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				467710692AF6674300BA4EF5 /* ToggleScreen.swift */,
 				467710752AF66AF700BA4EF5 /* DatePickerScreen.swift */,
 				467710772AF670B800BA4EF5 /* StepperViewScreen.swift */,
+				46C561CA2AF8587F00AF41F6 /* ProgressViewScreen.swift */,
 				4677106B2AF6674500BA4EF5 /* Assets.xcassets */,
 				4677106D2AF6674500BA4EF5 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				467710782AF670B800BA4EF5 /* StepperViewScreen.swift in Sources */,
 				4677106A2AF6674300BA4EF5 /* ToggleScreen.swift in Sources */,
 				467710682AF6674300BA4EF5 /* ElementsSwiftUIAppApp.swift in Sources */,
+				46C561CB2AF8587F00AF41F6 /* ProgressViewScreen.swift in Sources */,
 				467710762AF66AF700BA4EF5 /* DatePickerScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
